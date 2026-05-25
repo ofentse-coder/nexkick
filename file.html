@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXKICK — Tech & Kicks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+ </head>
+
+<body>
+
+  <!-- ───── NAVBAR ───── -->
+  <header class="navbar">
+    <div class="container navbar__inner">
+      <a href="#" class="navbar__logo">NEXKICK</a>
+
+      <nav>
+        <ul class="navbar__links">
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="navbar__actions">
+        <a href="cart.html" class="navbar__cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="navbar__cart-count">3</span>
+        </a>
+        <a href="shop.html" class="btn btn--primary" style="padding: 10px 20px; font-size: 0.78rem;">
+          Shop Now
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- ───── HERO SECTION ───── -->
+  <section class="hero">
+    <div class="hero__bg">
+      <img
+        class="hero__bg-image"
+        src="pexels-cjanimus-7989742.jpg"
+        alt="Hero background"
+      />
+      <div class="hero__bg-overlay"></div>
+    </div>
+    <div class="hero__orb"></div>
+    <div class="hero__orb-2"></div>
+    <div class="hero__gradient-line"></div>
+
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__eyebrow">
+          <span class="hero__eyebrow-dot"><i class="fa-solid fa-bolt"></i></span>
+          Trade-in Offers — Up to 70% Off
+        </div>
+
+        <h1 class="hero__title">
+          SUPER<br />
+          <span class="hero__title-line--gradient">VALUE</span><br />
+          DEALS
+        </h1>
+
+        <p class="hero__description">
+          The best in tech and kicks — all in one place. Explore premium gadgets
+          and lifestyle sneakers with unbeatable trade-in offers.
+        </p>
+
+        <div class="hero__cta-group">
+          <a href="shop.html" class="btn btn--primary">
+            <i class="fa-solid fa-bolt"></i>
+            Shop Now
+          </a>
+          <a href="blog.html" class="btn btn--ghost">
+            Explore Deals
+          </a>
+        </div>
+
+        <div class="hero__stats">
+          <div>
+            <div class="hero__stat-value"><span>12K</span>+</div>
+            <div class="hero__stat-label">Products</div>
+          </div>
+          <div>
+            <div class="hero__stat-value"><span>70</span>%</div>
+            <div class="hero__stat-label">Max Discount</div>
+          </div>
+          <div>
+            <div class="hero__stat-value"><span>4.9</span></div>
+            <div class="hero__stat-label">Customer Rating</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ───── TICKER ───── -->
+  <div class="ticker">
+    <div class="ticker__track">
+      <!-- Repeated twice for seamless loop -->
+      <span class="ticker__item"><i class="fa-solid fa-star"></i> Free Shipping Over $50</span>
+      <span class="ticker__item"><i class="fa-solid fa-rotate-left"></i> 30-Day Returns</span>
+      <span class="ticker__item"><i class="fa-solid fa-shield-halved"></i> 2-Year Warranty</span>
+      <span class="ticker__item"><i class="fa-solid fa-bolt"></i> New Arrivals Weekly</span>
+      <span class="ticker__item"><i class="fa-solid fa-tag"></i> Trade-In Deals Available</span>
+      <span class="ticker__item"><i class="fa-solid fa-headset"></i> 24/7 Support</span>
+      <span class="ticker__item"><i class="fa-solid fa-star"></i> Free Shipping Over $50</span>
+      <span class="ticker__item"><i class="fa-solid fa-rotate-left"></i> 30-Day Returns</span>
+      <span class="ticker__item"><i class="fa-solid fa-shield-halved"></i> 2-Year Warranty</span>
+      <span class="ticker__item"><i class="fa-solid fa-bolt"></i> New Arrivals Weekly</span>
+      <span class="ticker__item"><i class="fa-solid fa-tag"></i> Trade-In Deals Available</span>
+      <span class="ticker__item"><i class="fa-solid fa-headset"></i> 24/7 Support</span>
+    </div>
+  </div>
+
+
+  <!-- ───── CATEGORIES ───── -->
+  <section class="categories">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">Browse</span>
+          <h2 class="section-title">SHOP BY<br />CATEGORY</h2>
+        </div>
+        <a href="shop.html" class="btn btn--ghost">View All <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="categories__grid">
+        <!-- Large card -->
+        <div class="cat-card">
+          <div class="cat-card__bg" style="background-image: url('https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=600&q=70');"></div>
+          <div class="cat-card__overlay"></div>
+          <div class="cat-card__content">
+            <span class="cat-card__tag">Trending</span>
+            <div class="cat-card__title">Smartphones & Tablets</div>
+            <div class="cat-card__count">340+ Products</div>
+          </div>
+          <div class="cat-card__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
+        <!-- Small cards -->
+        <div class="cat-card">
+          <div class="cat-card__bg" style="background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=70');"></div>
+          <div class="cat-card__overlay"></div>
+          <div class="cat-card__content">
+            <span class="cat-card__tag">New</span>
+            <div class="cat-card__title">Sneakers</div>
+            <div class="cat-card__count">210+ Styles</div>
+          </div>
+          <div class="cat-card__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-card__bg" style="background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=70');"></div>
+          <div class="cat-card__overlay"></div>
+          <div class="cat-card__content">
+            <span class="cat-card__tag">Hot</span>
+            <div class="cat-card__title">Audio & Wearables</div>
+            <div class="cat-card__count">180+ Products</div>
+          </div>
+          <div class="cat-card__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-card__img"><img src="pexels-krzysztof-niedziela-478974-1187692.jpg" alt="Laptops"></div>
+          <div class="cat-card__overlay"></div>
+          <div class="cat-card__content">
+            <span class="cat-card__tag">Sale</span>
+            <div class="cat-card__title">Laptops</div>
+            <div class="cat-card__count">90+ Models</div>
+          </div>
+          <div class="cat-card__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+
+        <div class="cat-card">
+          <div class="cat-card__bg" style="background-image: url('https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=400&q=70');"></div>
+          <div class="cat-card__overlay"></div>
+          <div class="cat-card__content">
+            <span class="cat-card__tag">Deals</span>
+            <div class="cat-card__title">Accessories</div>
+            <div class="cat-card__count">500+ Items</div>
+          </div>
+          <div class="cat-card__arrow"><i class="fa-solid fa-arrow-right"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ───── FEATURED PRODUCTS ───── -->
+  <section class="products">
+    <div class="container">
+      <div class="section-header">
+        <div>
+          <span class="section-label">Featured</span>
+          <h2 class="section-title">BEST SELLERS</h2>
+        </div>
+        <a href="shop.html" class="btn btn--ghost">See All <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+      <div class="products__grid">
+
+        <div class="product-card">
+          <div class="product-card__img-wrap"><img src="pexels-paulseling-20385205.jpg" alt="headphones">
+            <span class="product-card__badge product-card__badge--new">New</span>
+            <button class="product-card__wishlist"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__category">Audio</div>
+            <div class="product-card__name">Pro Noise-Cancel Headphones X1</div>
+            <div class="product-card__footer">
+              <div>
+                <span class="product-card__price">$149</span>
+                <span class="product-card__price-old">$199</span>
+              </div>
+              <button class="product-card__add"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img-wrap"><img src="pexels-jddaniel-2385477.jpg" alt="Sneakers">
+            <span class="product-card__badge product-card__badge--hot">Hot</span>
+            <button class="product-card__wishlist"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__category">Sneakers</div>
+            <div class="product-card__name">AirStep Ultra Boost 2025</div>
+            <div class="product-card__footer">
+              <div>
+                <span class="product-card__price">$129</span>
+                <span class="product-card__price-old">$180</span>
+              </div>
+              <button class="product-card__add"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img-wrap"><img src="pexels-deise-elen-2149983761-31406908.jpg" alt="Watch">
+            <span class="product-card__badge product-card__badge--sale">–30%</span>
+            <button class="product-card__wishlist"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__category">Wearables</div>
+            <div class="product-card__name">SmartWatch Series 7 Pro</div>
+            <div class="product-card__footer">
+              <div>
+                <span class="product-card__price">$209</span>
+                <span class="product-card__price-old">$299</span>
+              </div>
+              <button class="product-card__add"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-card__img-wrap"><img src="pexels-rubaitulazad-16149966.jpg" alt="Phone">
+            <span class="product-card__badge product-card__badge--new">New</span>
+            <button class="product-card__wishlist"><i class="fa-regular fa-heart"></i></button>
+          </div>
+          <div class="product-card__body">
+            <div class="product-card__category">Smartphones</div>
+            <div class="product-card__name">Galaxy Z Fold Ultra 512GB</div>
+            <div class="product-card__footer">
+              <div>
+                <span class="product-card__price">$899</span>
+              </div>
+              <button class="product-card__add"><i class="fa-solid fa-plus"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ───── DEALS BANNER ───── -->
+  <section class="deals-banner">
+    <div class="container">
+      <div class="deals-banner__card">
+        <div class="deals-banner__mesh"></div>
+
+        <div class="deals-banner__content">
+          <div class="deals-banner__tag">
+            <i class="fa-solid fa-fire"></i>
+            Flash Sale — Limited Time
+          </div>
+          <h2 class="deals-banner__title">
+            SAVE MORE,<br />
+            <span>LIVE BETTER</span>
+          </h2>
+          <p class="deals-banner__desc">
+            Save more with coupons and up to 70% off on all tech and sneakers.
+            Don't miss out on these exclusive trade-in offers.
+          </p>
+          <a href="shop.html" class="btn btn--primary">
+            <i class="fa-solid fa-bolt"></i>
+            Claim Offer
+          </a>
+        </div>
+
+        <div class="deals-banner__visual">
+          <div class="deals-banner__counter">
+            <div class="countdown-unit">
+              <div class="countdown-unit__value" id="cd-hours">08</div>
+              <div class="countdown-unit__label">Hours</div>
+            </div>
+            <span class="countdown-sep">:</span>
+            <div class="countdown-unit">
+              <div class="countdown-unit__value" id="cd-mins">45</div>
+              <div class="countdown-unit__label">Mins</div>
+            </div>
+            <span class="countdown-sep">:</span>
+            <div class="countdown-unit">
+              <div class="countdown-unit__value" id="cd-secs">00</div>
+              <div class="countdown-unit__label">Secs</div>
+            </div>
+          </div>
+
+          <div class="deals-banner__discount">
+            <div class="deals-banner__discount-code">NEXKICK70</div>
+            <div class="deals-banner__discount-note">Use code at checkout · 70% off sitewide</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ───── FEATURES STRIP ───── -->
+  <section class="features">
+    <div class="container">
+      <div class="features__grid">
+        <div class="feature-item">
+          <div class="feature-item__icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <div>
+            <div class="feature-item__title">Free Fast Shipping</div>
+            <div class="feature-item__desc">Free on all orders above $50</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon"><i class="fa-solid fa-rotate-left"></i></div>
+          <div>
+            <div class="feature-item__title">Easy Returns</div>
+            <div class="feature-item__desc">30-day hassle-free returns</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div>
+            <div class="feature-item__title">2-Year Warranty</div>
+            <div class="feature-item__desc">Guaranteed on all gadgets</div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item__icon"><i class="fa-solid fa-headset"></i></div>
+          <div>
+            <div class="feature-item__title">24/7 Support</div>
+            <div class="feature-item__desc">Always here when you need us</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ───── FOOTER ───── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <div class="footer__brand-logo">NEXKICK</div>
+          <p class="footer__brand-desc">
+            Where tech meets lifestyle. Premium gadgets and sneakers
+            delivered to your door with unbeatable trade-in value.
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer__social"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="footer__social"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#" class="footer__social"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Shop</div>
+          <ul class="footer__links">
+            <li><a href="shop.html">All Products</a></li>
+            <li><a href="#">Smartphones</a></li>
+            <li><a href="#">Sneakers</a></li>
+            <li><a href="#">Audio</a></li>
+            <li><a href="#">Wearables</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Company</div>
+          <ul class="footer__links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Press Kit</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="footer__col-title">Support</div>
+          <ul class="footer__links">
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Warranty</a></li>
+            <li><a href="#">Trade-In</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__copy">© 2025 NEXKICK. All rights reserved.</div>
+        <div class="footer__payment">
+          <span class="payment-icon">VISA</span>
+          <span class="payment-icon">MC</span>
+          <span class="payment-icon">AMEX</span>
+          <span class="payment-icon">PayPal</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
